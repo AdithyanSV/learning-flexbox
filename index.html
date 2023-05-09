@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Scorecard</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="sources/favicon-32x32.png">
 </head>
 <body>
     <div class='box'>
@@ -15,15 +16,19 @@
                 <p id='smain'>76</p>
                 <p id='of'>of 100</p>
             </div>
-            <p id='eval'>Great</p>
-            <p id='txt'>You scored higher than 65% of the people who have taken these tests.</p>
+            <div class='txt'>
+                <p id='eval'>Great</p>
+                <p id='txt'>You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
         </div>
         <div class='right'>
             <p class='summary'>Summary</p>
-            <div class='liste' id='re'><p id="r">Reaction</p><span><p class='of1'>80</p><p class='of2'>/100</p></span></div>
-            <div class='liste' id='me'><p id="m">Memory</p><span><p class='of1'>92</p><p class='of2'>/100</p></span></div>
-            <div class='liste' id='ve'><p id="v">Verbal</p><span><p class='of1'>61</p><p class='of2'>/100</p></span></div>
-            <div class='liste' id='vi'><p id="v2">Visual</p><span><p class='of1'>72</p><p class='of2'>/100</p></span></div>
+            <div class='list'>
+                <div class='liste' id='re'><span><img src="sources/icon-reaction.svg"><p id="r">Reaction</p></span><p class='of1'><span class='of2'>80</span>/100</p></div>
+                <div class='liste' id='me'><span><img src="sources/icon-memory.svg"><p id="m">Memory</p></span><p class='of1'><span class='of2'>92</span>/100</p></div>
+                <div class='liste' id='ve'><span><img src="sources/icon-verbal.svg"><p id="v">Verbal</p></span><p class='of1'><span class='of2'>61</span>/100</p></div>
+                <div class='liste' id='vi'><span><img src="sources/icon-visual.svg"><p id="v2">Visual</p></span><p class='of1'><span class='of2'>72 </span>/100</p></div>
+            </div>
             <button class='cont'>Continue</button>
         </div>
     </div>
