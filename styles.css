@@ -161,7 +161,7 @@ button:active{
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     transition: 0.5s;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1080px) {
     .box{
         display: flex;
         flex-direction: column;
@@ -178,7 +178,7 @@ button:active{
         height: 55%;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
     .left{
         border-radius: 0px 0px 25px 25px;
         width: 100%;
